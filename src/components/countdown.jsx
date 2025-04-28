@@ -6,7 +6,7 @@ import { Heart, Gift, Cake, Star } from "lucide-react"
 
 function calculateTimeLeft(targetDate) {
   const difference = targetDate - new Date()
-  let timeLeft = {}
+  let timeLeft = {10}
 
   if (difference > 0) {
     timeLeft = {
@@ -56,7 +56,7 @@ export default function Countdown({ targetDate, onCountdownEnd }) {
           ease: "easeInOut",
         }}
       >
-        Your Special Day is Almost Here💕
+        Your Special Day is Almost Here Sharu Ma💕 
       </motion.h1>
 
       <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -76,7 +76,7 @@ export default function Countdown({ targetDate, onCountdownEnd }) {
             </motion.div>
           ))
         ) : (
-          <p className="text-2xl text-pink-600 font-bold">It's time!</p>
+          <p className="text-2xl text-pink-600 font-bold">It's time to Celebrate!</p>
         )}
       </div>
 
