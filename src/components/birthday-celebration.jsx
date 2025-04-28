@@ -88,10 +88,10 @@ export default function BirthdayCelebration() {
             >
               <div className="text-center">
                 <p className="text-purple-700 mb-2">
-                Just wanted to remind you—you're my favorite person.After you came My days are better, smiles are wider, and life is sweeter because of you. Athae mari than unnakku nu nianikiran.Neriya Sollanum ninaicha ana 
-                  mudila anyway one more time many more happy returns of the day papa spend the day with your loved ones.
+                Just wanted to remind you—you're my favorite person.After you came My days are better, smiles are wider, and life is sweeter because of you. Athae mari than unnakku nu nianikiran.
                 </p>
-                <p className="text-pink-600 font-medium">I hope your birthday is full of love, magic, and everything that makes you smile 💖</p>
+                <p className="text-pink-600 font-medium">Neriya Sollanum ninaicha ana 
+                  mudila anyway one more time many more happy returns of the day papa spend the day with your loved ones.💖</p>
                 <div className="flex justify-center">
                   <motion.div
                     animate={{
