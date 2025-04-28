@@ -6,7 +6,7 @@ import { Heart, Gift, Cake, Star } from "lucide-react"
 
 function calculateTimeLeft(targetDate) {
   const difference = targetDate - new Date()
-  let timeLeft = {10}
+  let timeLeft = {}
 
   if (difference > 0) {
     timeLeft = {
